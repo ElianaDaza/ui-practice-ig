@@ -47,6 +47,10 @@ html {
   font-size: 16px;
 }
 
+.footer-container {
+  padding-inline: 2rem;
+}
+
 .avatar__img {
   width: 6rem;
   height: 6rem;
@@ -63,7 +67,7 @@ html {
   display: flex;
   justify-content: space-between;
   padding-block: 1rem;
-  padding-inline: 2rem;
+
 }
 
 .icons-container__icons-interation {
@@ -74,4 +78,27 @@ html {
 .icons-container__like-icon {
   fill: red;
 
+}
+
+.more-comments-container__view-more-botton {
+  all: unset;
+  font-size: 1.5rem;
+}
+
+.like-avatar-count__likes-users {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+
+}
+
+.like-avatar-count__last-like-avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.text-bold {
+  font-weight: bold;
 }
