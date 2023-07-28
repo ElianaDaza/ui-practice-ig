@@ -58,3 +58,20 @@ html {
   height: 40rem;
   aspect-ratio: 1/1;
 }
+
+.footer-container__icons-container {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+}
+
+.icons-container__icons-interation {
+  display: flex;
+  gap: 2rem;
+}
+
+.icons-container__like-icon {
+  fill: red;
+
+}
